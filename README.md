@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-Leaderboard is the API(Application Programming Interface) that help us to record the name and score for ranking purposes. It records the name and password using async and wait technology.
+Leaderboard is the API(Application Programming Interface) that help us to record the name and score for ranking purposes. It records the name and score using async and wait technology.
 
 ![screenshot](./src/images/wireframe.png)
 
@@ -23,7 +23,7 @@ Leaderboard is the API(Application Programming Interface) that help us to record
 - clone the repository by running\
    `git clone https://github.com/mbonabucya/Leaderboard.git`
 - navigate to the folder\
-   `cd leaderboard-setup`
+   `cd leaderboard-structure`
 - Install packages\
    `npm install`
 - Run the app\
