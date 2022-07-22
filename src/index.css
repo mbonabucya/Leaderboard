@@ -10,27 +10,14 @@
   box-sizing: border-box;
 }
 
-.flex {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 html {
   background-color: var(--bg);
 }
 
-.leader-form {
-  margin-left: 120px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+header {
+  margin-left: 126px;
+
 }
+
+
+
