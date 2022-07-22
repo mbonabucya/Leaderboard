@@ -18,18 +18,27 @@
     <section class="board-container">
       <div class="leader-list">
         <div class="title">
-          <p>Recent Scores</p>
+          <h2>Recent Scores</h2>
           <button type="submit">Refresh</button>
         </div>
         <div class="score-content">
           <ul>
-            <li><strong>Name:</strong></li>240
+            <li><strong>Name:</strong>240</li>
+            <li><strong>Name:</strong>240</li>
+            <li><strong>Name:</strong>240</li>
+            <li><strong>Name:</strong>240</li>
           </ul>
         </div>
       </div>
       <div class="leader-form">
-        <h2>Add your score</h2>
-        <input type="text" placeholder="Enter your name">
+        <div>
+          <h2>Add your score</h2>
+        </div>
+        <form action="#" id="submit-data">
+          <input type="text" id="fullname" placeholder="Your name" />
+          <input type="number" id="score" placeholder="Your Score" />
+          <button type="submit" class="btn submit-form">Submit</button>
+        </form>
       </div>
     </section>
   </body>

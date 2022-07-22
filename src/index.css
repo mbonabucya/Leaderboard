@@ -16,8 +16,55 @@ html {
 
 header {
   margin-left: 126px;
-
+  text-align: center;
 }
 
+.title {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
+.title button {
+  width: auto;
+  height: 30px;
+}
 
+.board-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.leader-form {
+  margin-left: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leader-form button {
+  height: 30px;
+  width: 80px;
+}
+
+.leader-form input {
+  height: 40px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+input::placeholder {
+  font-size: 24px;
+}
