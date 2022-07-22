@@ -1,7 +1,7 @@
 import './index.css';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-const gameId = 'IMedGj11pIQ2hWnoIzv';
+const gameId = 'IMedGj11pIQ2hWnoIzvyh';
 
 const addScore = async (newScore) => {
   const response = await fetch(`${url}/games/${gameId}/scores/`, {

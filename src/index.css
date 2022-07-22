@@ -15,6 +15,10 @@ html {
   background-color: var(--blueish);
 }
 
+.leaderboard-container {
+  margin: 40px;
+}
+
 .leaderboard-container h1 {
   text-align: center;
   color: var(--bg);
@@ -40,6 +44,16 @@ html {
   flex-direction: column;
 }
 
+table {
+  border: 1px solid var(--bg);
+  border-radius: 16px;
+  padding: 10px 60px 40px 60px;
+}
+
+table tr:nth-child(even) {
+  background-color: #d3ad7f;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -59,6 +73,23 @@ form input {
   font-size: 18px;
 }
 
+button.btn {
+  float: right;
+}
+
 span {
   color: var(--main-color);
+}
+
+@media (max-width: 480px) {
+  .scores-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leaderboard-container {
+    text-align: center;
+    color: var(--bg);
+    margin: 100px;
+  }
 }
