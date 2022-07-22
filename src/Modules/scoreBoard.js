@@ -4,7 +4,7 @@ class Board {
     this.score = score;
   }
 
-    static list = document.querySelector('.score-list');
+  static list = document.querySelector('.score-list');
 
 static db = (scoreObj) => {
   if (scoreObj) {

@@ -2,41 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
+    <section class="leaderboard-container">
       <h1>Leaderboard</h1>
-    </header>
-    <section class="board-container">
-      <div class="leader-list">
-        <div class="title">
-          <h2>Recent Scores</h2>
-          <button type="submit" class="refresh">Refresh</button>
+      <div class="scores-container">
+        <div class="recent-scores">
+          <div class="heading">
+            <h2>Recent Scores</h2>
+            <button id="refresh" type="button" class="refresh btn">Refresh</button>
+          </div>
+          <table id="table"></table>
         </div>
-        <div class="score-content">
-          <ul class="score-list">
-            <li><strong>Name:</strong>240</li>
-            <li><strong>Name:</strong>240</li>
-          </ul>
+        <div class="add-score">
+          <div class="heading">
+            <h2>Add your score</h2>
+          </div>
+          <form action="/" id="form">
+            <input type="text" id="user" placeholder="Your name" required />
+            <input type="text" id="score" placeholder="Your score" required />
+            <div class="submit-wrapper"><button type="submit" id="submit" class="btn">Submit</button></div>
+          </form>
         </div>
-      </div>
-      <div class="leader-form">
-        <div>
-          <h2>Add your score</h2>
-        </div>
-        <form action="#" id="submit-data">
-          <input type="text" id="fullname" placeholder="Your name" />
-          <input type="number" id="score" placeholder="Your Score" />
-          <button type="submit" class="btn submit-form">Submit</button>
-        </form>
       </div>
     </section>
   </body>
