@@ -26,6 +26,14 @@ html {
   justify-content: center;
 }
 
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
 .add-score {
   margin-left: 126px;
   display: flex;
@@ -42,4 +50,15 @@ form input {
   height: 30px;
   border: 1px solid white;
   border-radius: 8px;
+}
+
+.btn {
+  height: 30px;
+  width: 80px;
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+span {
+  color: var(--main-color);
 }
