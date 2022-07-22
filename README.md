@@ -39,7 +39,7 @@ Leaderboard is the API(Application Programming Interface) that help us to record
 
 - [Github/mbonabucya](https://github.com/mbonabucya)
 - [Twitter/Mbonabucya12](https://twitter.com/Mbonabucya12)
-- [LinkedIn/James](https://www.linkedin.com/in/james-mbonabucya)
+- [Linedin/James-mbonabucya](https://www.linkedin.com/in/james-mbonabucya)
 
 ## :handshake: Contributing
 
